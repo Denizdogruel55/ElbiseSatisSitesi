@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Eticaret Sitesi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#Anasayfa">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Hakkımızda">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Ürünler">Ürünler</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#iletisim">İletişim</a>
+        </li>
+       
+      
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+</header>
+
+<div class="container">
+  
+  <div id="Anasayfa" class="dark-bg my-auto">
+    <h1 class="text-white d-flex d-flex-column justify-content-center features">Deniz Yazılım</h1>
+  </div>
+    
+
+
+  <h1 id="Hakkımızda" class="text-danger d-flex d-flex-column justify-content-center">Hakkımızda</h1>
+  <div class="row bg-light mb-3" >
+    <div class="col-4 ">
+      <img src="./resimler/2.jpg" alt="" style="height: 40vh;" class="img-fluid">
+    </div>
+    <div class="col-8 gy-5 gx-5" >
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quisquam fuga possimus, eligendi impedit adipisci non dolores suscipit enim deleniti!</p>
+    </div>
+  </div>
+   <div class="row bg-light" >
+    <div class="col-4 ">
+      <img src="./resimler/2.jpg" alt="" style="height: 40vh;" class="img-fluid">
+    </div>
+    <div class="col-8 gy-5 gx-5 order-first" >
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quisquam fuga possimus, eligendi impedit adipisci non dolores suscipit enim deleniti!</p>
+    </div>
+  </div>
+  <h1 id="Ürünler" class="d-flex d-flex-column justify-content-center text-danger">Ürünler</h1>
+  <div class="row ">
+    
+    <div class="card  col-lg-4 col-md-12"  >
+  <img src="resimler/1.jpg" class="card-img-top img-fluid" ">
+  <div class="card-body">
+       <h5 class="card-title">Ürün:Elbise</h5>
+    <p class="card-text">Açıklama:kolsuz Elbise</p>
+    <p class="card-text"> Boy: XL</p>
+    <p  class="card-text"> Fiyat: 150 TL</p>
+    <a href="#" class="btn btn-primary">Ekle</a>
+ 
+  </div>
+</div>
+
+<div class="card  col-lg-4 col-md-12"  >
+  <img src="resimler/1.jpg" class="card-img-top img-fluid" >
+  <div class="card-body">
+    <h5 class="card-title">Ürün:Elbise</h5>
+    <p class="card-text">Açıklama:kolsuz Elbise</p>
+    <p class="card-text"> Boy: XL</p>
+    <p  class="card-text"> Fiyat: 150 TL</p>
+    <a href="#" class="btn btn-primary">Ekle</a>
+  </div>
+</div>
+
+
+<div class="card col-lg-4 col-md-12"  >
+  <img src="resimler/1.jpg" class="card-img-top img-fluid"  >
+  <div class="card-body">
+   <h5 class="card-title">Ürün:Tamkol Elbise</h5>
+    <p class="card-text">Açıklama:Polar</p>
+    <p class="card-text"> Boy: XL</p>
+    <p  class="card-text"> Fiyat: 150 TL</p>
+    <a href="#" class="btn btn-primary">Ekle</a>
+
+  </div>
+</div>
+  </div>
+  <h1 id="iletisim" class="d-flex d-flex-column justify-content-center">iletisim</h1>
+
+    <form action="" method="post">
+      <div class="mb-3">
+        <label for="Ad">Ad</label>
+       <input class="form-control" id="Ad">
+      </div>
+       <div class="mb-3">
+        <label for="soyad">soyad</label>
+       <input class="form-control" id="soyad">
+      </div>
+       <div class="mb-3">
+        <label for="konu">konu</label>
+       <input class="form-control" id="konu">
+      </div>
+       <div class="mb-3">
+        <label for="Mesaj">Mesaj</label>
+       <textarea name="" id="Mesaj" class="form-control"></textarea>
+      </div>
+     
+    <button type="submit" class="btn btn-danger">Gönder</button>
+    </form>
+  </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
